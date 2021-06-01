@@ -4,7 +4,7 @@ print('Calculadora de juros compostos mensal!')
 print('-=-' * 10)
 x = 1
 soma = float(input('Qual o valor do depósito inicial? R$'))
-juros = float(input('Qual a taxa de juros (em %) da polpança? '))
+juros = float(input('Qual a taxa de juros mensal (em %) da polpança? '))
 print('Mês 1: {}'.format(soma))
 sleep(1)
 while x <= 23:
